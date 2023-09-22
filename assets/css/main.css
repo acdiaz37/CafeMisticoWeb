@@ -371,11 +371,15 @@ h6 {
   transition: 0.3s;
 }
 
+.header .a{
+  margin-left: 200px;
+}
+
 .header .logo img {
   /*tamano logo principal*/
-  max-height: 63px;
+  max-height:90px;  
   margin-right: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 .header .logo h1 {
