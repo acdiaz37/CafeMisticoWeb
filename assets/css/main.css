@@ -1280,6 +1280,7 @@ h6 {
   }
 }
 
+
 .hero h2 {
   margin: 0 0 10px 0;
   font-size: 38px;
@@ -1287,11 +1288,28 @@ h6 {
   color: #fff;
   font-family: var(--font-secondary);
 }
+.videoreduce{
+  max-width: 300px;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .videoreduce{
+    max-width: 170px;
+    width: 100%;
+  }
+}
 
 video::-webkit-media-controls {
   display: none;
 }
 
+@media (max-width: 500px) {
+  
+  .hero video {
+    height: 50%;
+  }
+}
 
 .hero h2 span {
   position: relative;
