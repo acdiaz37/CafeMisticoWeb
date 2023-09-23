@@ -1274,7 +1274,7 @@ h6 {
 }
 
 /* media query para que toda pantalla menor de 768px centre todo el contenido */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero {
     text-align: center;
   }
@@ -1291,6 +1291,7 @@ h6 {
 video::-webkit-media-controls {
   display: none;
 }
+
 
 .hero h2 span {
   position: relative;
