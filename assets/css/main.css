@@ -1293,9 +1293,9 @@ h6 {
   width: 100%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .videoreduce{
-    max-width: 170px;
+    max-width: 150px;
     width: 100%;
   }
 }
